@@ -17,5 +17,5 @@ git clone "url which needs to be copy"
 BRANCHING AND MERGING
 git branch branchname //generate the branch
 git branch //get the info about the branches
-git checkout branchname // go in the branch
-git checkout master// go in the branch
+git checkout branchname // switch to the specified branch
+git checkout master// switch to the master branch
