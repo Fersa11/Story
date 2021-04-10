@@ -1,0 +1,21 @@
+git init //setting up git in the working directory
+git add . //Setting up the files in the staging area
+git status
+git commit -m "comitment" //Setting up the files in the local repository
+git log //TO CHECK COMMITS
+git diff filename //shows the diff of changed files
+git checkout filename //rolls back to  the last commited version of the file
+
+REMOTE UPLOAD TO GITHUB
+git remote add origin "url of remote reposotory"
+git push -u origin master
+git log //TO CHECK COMMITS
+
+GIT CLONE
+git clone "url which needs to be copy"
+
+BRANCHING AND MERGING
+git branch branchname //generate the branch
+git branch //get the info about the branches
+git checkout branchname // switch to the specified branch
+git checkout master// switch to the master branch
